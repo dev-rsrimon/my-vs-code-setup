@@ -25,12 +25,21 @@ Hi! I'm  **Rs. Rimon** Working as Front-end Developer at The Tork Inc. In this r
 9. **Pretter-Code formatter** By Prettier
 
 #### For React.js 
-1. **ES7 React/Redux/GraphQL/React-Native snippets** By dxznajder
+10. **ES7 React/Redux/GraphQL/React-Native snippets** By dxznajder
 
 #### For Vue.js and Nuxt.js 
-1. **Vetur** By Pine Wu 
-2. **Vue VSCode Snippets** By sarah.drasner
+11. **Vetur** By Pine Wu 
+12. **Vue VSCode Snippets** By sarah.drasner
 
 #### Fonts 
 1. Fira Code 
 2. Operator Mono
+
+### How to Setup 
+1. Clone `git clone https://github.com/dev-rsrimon/my-vs-code-setup.git`
+2. At first install all the plugins from Vs code store
+3. Install All fonts
+4. Copy `settings.json` all contents to `settings > settings.json`
+
+
+Thank you
