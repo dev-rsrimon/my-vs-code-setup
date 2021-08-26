@@ -7,7 +7,7 @@ Hi! I'm  **Rs. Rimon** Working as Front-end Developer at The Tork Inc. In this r
 
 **Learn with Sumit Theme** By Sumit Saha
 
-### Create files and folders
+### Plugins or Extensions
 
 1. **Auto Rename Tag** By Jun Han 
 2. **Bracket Pair Colorizer** By CoenraadS 
