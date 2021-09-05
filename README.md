@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://github.com/dev-rsrimon/my-vs-code-setup/blob/main/vscode.PNG" width="100%" title="hover text">
+</p>
+
 # Welcome to Rs. Rimon's VS Code Setup!
 
 Hi! I'm  **Rs. Rimon** Working as Front-end Developer at The Tork Inc. In this repo I'm gonna share my VS Code editor setup. So, Let's start:
