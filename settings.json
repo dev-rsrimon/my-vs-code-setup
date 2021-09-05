@@ -1,41 +1,31 @@
 {
-  "workbench.colorTheme": "Learn with Sumit - Peace of the eye",
-  // Controls the font family.
-  "editor.fontFamily": "'Fira Code', Operator Mono",
-  "editor.fontWeight": "400",
-  // Enables font ligatures
-  "editor.fontLigatures": true,
-  // controls the color of the terminal
-  "workbench.colorCustomizations": {
-    "terminal.ansiBlack": "#171c2a",
-    "terminal.ansiRed": "#E35535",
-    "terminal.ansiGreen": "#52AB62",
-    "terminal.ansiYellow": "#ffd866",
-    "terminal.ansiBlue": "#00B3BD",
-    "terminal.ansiMagenta": "#e991e3",
-    "terminal.ansiCyan": "#78e8c6",
-    "terminal.ansiWhite": "#FFFFFFcc",
-    "terminal.ansiBrightBlack": "#00B3BD",
-    "terminal.ansiBrightRed": "#E35535",
-    "terminal.ansiBrightGreen": "#52AB62",
-    "terminal.ansiBrightYellow": "#ffd866",
-    "terminal.ansiBrightBlue": "#00B3BD",
-    "terminal.ansiBrightMagenta": "#e991e3",
-    "terminal.ansiBrightCyan": "#78e8c6",
-    "terminal.ansiBrightWhite": "#00B3BD",
-    "terminal.background": "#171c2a",
-    "terminalCursor.background": "#ffd866",
-    "terminalCursor.foreground": "#ffd866"
-  },
-  "git.ignoreMissingGitWarning": true,
+  // editor
   "editor.fontSize": 16,
-  "workbench.iconTheme": "material-icon-theme",
-  //   cursor
+  "editor.fontFamily": "Fira Code, Operator Mono",
+  "editor.fontLigatures": true,
+  "editor.wordWrap": "on",
+  "editor.minimap.enabled": false,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "comment",
+        "settings": {
+          "fontStyle": "italic"
+        }
+      }
+    ]
+  },
+  // cursor
   "editor.cursorSmoothCaretAnimation": true,
   "editor.cursorBlinking": "expand",
   // config related to code formatting
+  "beautify.ignore": "javascript",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": null
+  },
   "[javascriptreact]": {
     "editor.formatOnSave": false,
     "editor.defaultFormatter": null
@@ -46,25 +36,36 @@
     "source.organizeImports": true
   },
   "eslint.alwaysShowStatus": true,
-  "liveServer.settings.donotShowInfoMsg": true,
-  "[scss]": {
-    "editor.suggest.insertMode": "replace"
-  },
-  "emmet.preferences": {},
-  "emmet.includeLanguages": {
-    "javascript": "javascriptreact"
-  },
-  "prettier.bracketSpacing": false,
-  "[html]": {
-    "editor.formatOnSave": false
-  },
-  "beautify.ignore": "javascript",
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "terminal.explorerKind": "external",
-  "terminal.integrated.tabs.hideCondition": "singleGroup",
+  //terminal
   "terminal.integrated.defaultProfile.windows": "Git Bash",
   "terminal.integrated.cursorStyle": "line",
-  "git.autofetch": true,
-  "files.autoSave": "afterDelay",
-  "eslint.migration.2_x": "off"
+  "terminal.integrated.fontFamily": "Operator Mono, Fira Code",
+  "terminal.integrated.fontSize": 15,
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.fontWeight": 300,
+  "workbench.colorTheme": "Learn with Sumit - Peace of the eye",
+  "workbench.iconTheme": "material-icon-theme",
+  // terminal customization
+  "workbench.colorCustomizations": {
+    "terminal.background": "#141827",
+    "terminal.foreground": "#c5c4c4",
+    "terminalCursor.background": "#A89984",
+    "terminalCursor.foreground": "#A89984",
+    "terminal.ansiBlack": "#11141f",
+    "terminal.ansiBlue": "#0D6678",
+    "terminal.ansiBrightBlack": "#665C54",
+    "terminal.ansiBrightBlue": "#0D6678",
+    "terminal.ansiBrightCyan": "#8BA59B",
+    "terminal.ansiBrightGreen": "#95C085",
+    "terminal.ansiBrightMagenta": "#8F4673",
+    "terminal.ansiBrightRed": "#FB543F",
+    "terminal.ansiBrightWhite": "#FDF4C1",
+    "terminal.ansiBrightYellow": "#FAC03B",
+    "terminal.ansiCyan": "#8BA59B",
+    "terminal.ansiGreen": "#95C085",
+    "terminal.ansiMagenta": "#8F4673",
+    "terminal.ansiRed": "#FB543F",
+    "terminal.ansiWhite": "#A89984",
+    "terminal.ansiYellow": "#FAC03B"
+  }
 }
