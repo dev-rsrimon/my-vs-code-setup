@@ -19,16 +19,19 @@
   "editor.cursorSmoothCaretAnimation": true,
   "editor.cursorBlinking": "expand",
   // config related to code formatting
-  "beautify.ignore": "javascript",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "[javascript]": {
     "editor.formatOnSave": false,
     "editor.defaultFormatter": null
   },
+  "[vue]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "[javascriptreact]": {
-    "editor.formatOnSave": false,
-    "editor.defaultFormatter": null
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true,
@@ -36,6 +39,11 @@
     "source.organizeImports": true
   },
   "eslint.alwaysShowStatus": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "vue-html": "html",
+    "vue": "html"
+  },
   //terminal
   "terminal.integrated.defaultProfile.windows": "Git Bash",
   "terminal.integrated.cursorStyle": "line",
@@ -67,5 +75,6 @@
     "terminal.ansiRed": "#FB543F",
     "terminal.ansiWhite": "#A89984",
     "terminal.ansiYellow": "#FAC03B"
-  }
+  },
+  "files.autoSave": "afterDelay"
 }
