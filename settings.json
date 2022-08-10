@@ -27,11 +27,11 @@
   },
   "[vue]": {
     "editor.formatOnSave": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": null
   },
   "[javascriptreact]": {
     "editor.formatOnSave": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": null
   },
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true,
@@ -45,7 +45,6 @@
     "vue": "html"
   },
   //terminal
-  "terminal.integrated.defaultProfile.windows": "Git Bash",
   "terminal.integrated.cursorStyle": "line",
   "terminal.integrated.fontFamily": "Operator Mono, Fira Code",
   "terminal.integrated.fontSize": 15,
@@ -76,5 +75,24 @@
     "terminal.ansiWhite": "#A89984",
     "terminal.ansiYellow": "#FAC03B"
   },
-  "files.autoSave": "afterDelay"
+  "files.autoSave": "afterDelay",
+  "editor.wordWrapColumn": 100,
+  "gitlens.codeLens.recentChange.enabled": false,
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell",
+      "path": [
+        "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+      ],
+      "args": ["-NoLogo"] //add this configuration.
+    }
+  },
+  "php.validate.executablePath": "",
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "editor.quickSuggestions": {
+    "strings": true
+  }
 }
